@@ -1,0 +1,53 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+%\author{}
+\title{Gazeta}
+\pagestyle{fancy}
+\fancyhead{}
+\lfoot{\scriptsize Plik: gazeta.pdf\\Copyright \copyright\ Akademia Górniczo-Hutnicza}
+\cfoot{\scriptsize Wersja: \input{wersja.tex}\\\normalsize \thepage}
+\rfoot{\scriptsize Stron: \pageref{LastPage} Długość: ? kB\\Prowadzenie zajęć:}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\usepackage[pdftex]{hyperref} %ma być ostatnie w~preambule
+
+\begin{document}
+%strona tytułowa
+\begin{center}
+\mbox{\Huge AKADEMIA GÓRNICZO\dywiz HUTNICZA}\\
+\mbox{\Large Wydział Elektrotechniki, Automatyki, Informatyki i~Elektroniki}\\
+\includegraphics[scale=0.5]{gfx/agh.jpg}\\
+\mbox{\Large KATEDRA INFORMATYKI}
+\end{center}
+%TODO tabelka na dole pierwszej strony
+%TODO marginesy pierwszej strony (żeby nagłówek się mieścił i~był równo)
+\thispagestyle{empty}
+\clearpage
+
+%copyright i~spis treści
+\begin{tabular}{|p{12cm}|}
+\hline
+Niniejsze opracowanie powstało w~trakcie i~jako rezultat zajęć dydaktycznych z~przedmiotu wymienionego na stronie tytułowej, prowadzonych w~Akademii Górniczo\dywiz Hutniczej w~Krakowie (AGH) przez osobę (osoby) wymienioną (wymienione) po słowach ``Prowadzący zajęcia'' i~nie może być wykorzystywane w~jakikolwiek sposób i~do jakichkolwiek celów, w~całości lub części, w~szczególności publikowanie w~jakikolwiek sposób i~w~jakiejkolwiek formie, bez uzyskania uprzedniej, pisemnej zgody tej osoby (tych osób) lub odpowiednich władz AGH.\\
+\\
+\textbf{Copyright \copyright\ Akademia Górniczo\dywiz Hutnicza (AGH) w~Krakowie}\\
+\hline
+\end{tabular}
+\tableofcontents
+\clearpage
+
+%treść
+\input{koncepcja.tex}
+\input{zakres_odpowiedzialnosci.tex}
+\input{dziedzina_problemu.tex}
+\input{baza_danych.tex}
+
+%spis ilustracji i~tabel
+\clearpage
+\listoffigures
+\listoftables
+\end{document}
+
