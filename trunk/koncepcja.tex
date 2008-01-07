@@ -1,0 +1,41 @@
+\section{Koncepcja}
+\subsection{Zleceniodawca}
+Nasz projekt będzie realizowany na zlecenie firmy North Press, która zajmuje się
+prowadzeniem sieci salonów prasowych Świat Prasy. Potrzebuje ona systemu umożliwiającego
+sprawne monitorowanie sprzedaży i~stanu magazynów, ułatwiającego podejmowanie decyzji w~kwestiach
+logistyki, a~także wspomagającego generowanie zamówień do dostawców, faktur dla
+klientów oraz dziennych raportów ze sprzedaży.
+
+\subsection{Ogólna wizja projektu}
+System, który zaprojektujemy, ma za zadanie zbierać dane dotyczące sprzedaży ze wszystkich
+stanowisk kasowych (używane w~tej chwili kasy fiskalne umożliwiają przesyłanie danych pomiędzy
+kasą, a podłączonym do niej komputerem) i~umożliwiać ich analizę kierownictwu firmy, a~także
+samym kasjerom, jak również ułatwiać im podejmowanie decyzji dotyczących zamawiania i~składowania
+towaru\footnote{Dość niefortunne określenie dla książek i~czasopism, ale bierzemy pod uwagę,
+że w~salonach sprzedawane są także papierosy, gumy do żucia, kupony pre-paid, bilety MPK, etc.}
+na podstawie uzyskanych danych.
+
+Podstawowe funkcje, które system powinien spełniać, to:
+\begin{itemize}
+    \item zbieranie i~przechowywanie danych dotyczących sprzedaży mających miejsce we wszystkich salonach
+    \item zbieranie i~przechowywanie danych dotyczących towaru składowanego we wszystkich salonach,
+    z~możliwością wglądu również dla kasjerów (w celu ułatwienia im sprawdzenia, czy dany towar jest
+    możliwy do nabycia w~tym lub innym salonie, a~także w~jakiej ilości jest tam przechowywany)
+    \item generowanie raportów sprzedaży
+    \item generowanie faktur dla klientów oraz księgowanie faktur wystawionych przez dostawców.
+    \item analiza wydajności poszczególnych pracowników i~salonów (również z~uwzględnieniem określonych przedziałów czasowych)
+    \item analiza popytu na poszczególne towary w~salonach
+    \item sugerowanie (po analizie popytu i~sprzedaży) wysokości zamówień do dostawców na poszczególne towary oraz generowanie tychże
+    \item sugerowanie (po analizie popytu) miejsca i~proporcji przechowywania poszczególnych
+    towarów (np.\ 200 sztuk ,,Przyjaciółki'' w~salonie nr 1, 150 sztuk w salonie nr 2, 40 w salonie
+    nr 3), z~uwzględnieniem możliwości przechowywania w~każdym z~miejsc branych pod uwagę
+    \item sugerowanie (po analizie sprzedaży i~stanu poszczególnych magazynowego w~salonach w~chwili bieżącej)
+    przetransportowania określonej ilości towaru do danego salonu, aby zdołał on zaspokoić popyt
+    \item sugerowanie (po analizie wydajności) wprowadzenia zmian w~godzinach otwarcia poszczególnych salonów
+\end{itemize}
+
+Rozważamy też rozszerzenie projektu o~dodatkowe funkcje, jak na przykład system punktowy dla
+stałych klientów lub możliwość prenumeraty czasopism i~wydawnictw cyklicznych (z~możliwością
+wysyłki pocztą/kurierem lub odbioru osobistego). Decyzja na ten temat zostanie podjęta po
+rozmowach z~zleceniodawcą.
+
