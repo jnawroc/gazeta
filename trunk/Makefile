@@ -3,7 +3,8 @@ GFX=$(shell ls gfx/*)
 
 gazeta.pdf: gazeta.tex $(TEX_FILES) $(GFX)
 	pdflatex $<
+	pdflatex $<
 clean:
-	rm -f *.aux *.log *.toc *.pdf
+	rm -f *.aux *.lof *.log *.lot *.out *.toc *.pdf
 .PHONY: clean
 
