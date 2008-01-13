@@ -14,11 +14,17 @@ Opis tabel:
 \item[Employees] dane pracowników
     \begin{description}
     \item[ID\_Emp] - identyfikator pracownika (klucz główny)
+    \item[ID\_Type] - typ pracownika (klucz obcy do tabeli Employee\_Types)
     \item[ID\_Branch] - identyfikator salonu, w którym pracuje dany pracownik (klucz obcy do tabeli Branches)
     \item[Firstname] - imię pracownika
     \item[Secondname] - nazwisko pracownika
     \item[Login] - nazwa pracownika w systemie
     \item[Password\_Hash] - skrót kryptograficzny hasła pracownika
+    \end{description}
+\item[Employee\_Types] typy pracowników (np. zwykły pracownik, szef salonu\ldots)
+    \begin{description}
+    \item[ID\_Type] - identyfikator typu (klucz główny)
+    \item[Name] - nazwa typu
     \end{description}
 \item[Shifts] zmiany pracowników
     \begin{description}
