@@ -65,13 +65,13 @@
   <dia:layer name="Tło" visible="true">
     <dia:object type="Flowchart - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
-        <dia:point val="12.505,-5.2"/>
+        <dia:point val="16.205,14.5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.455,-5.25;16.345,-3.25"/>
+        <dia:rectangle val="16.155,14.45;20.045,16.45"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="12.505,-5.2"/>
+        <dia:point val="16.205,14.5"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="3.79"/>
@@ -97,7 +97,7 @@
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="14.4,-4.12"/>
+            <dia:point val="18.1,15.58"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -110,13 +110,13 @@
     </dia:object>
     <dia:object type="Flowchart - Ellipse" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="2.1832,-22.1319"/>
+        <dia:point val="5.8832,-2.43188"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="2.1332,-22.1819;12.1245,-18.4206"/>
+        <dia:rectangle val="5.8332,-2.48188;15.8245,1.27936"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="2.1832,-22.1319"/>
+        <dia:point val="5.8832,-2.43188"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="9.8913310807122521"/>
@@ -143,7 +143,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="7.12887,-20.5713"/>
+            <dia:point val="10.8289,-0.871257"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -156,14 +156,14 @@ stanu magazynowego#</dia:string>
     </dia:object>
     <dia:object type="Standard - Arc" version="0" id="O2">
       <dia:attribute name="obj_pos">
-        <dia:point val="14.4,-4.25"/>
+        <dia:point val="18.1,15.45"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="7.05691,-20.5531;14.4662,-4.18382"/>
+        <dia:rectangle val="10.7569,-0.853118;18.1662,15.5162"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="14.4,-4.25"/>
-        <dia:point val="7.12887,-20.3013"/>
+        <dia:point val="18.1,15.45"/>
+        <dia:point val="10.8289,-0.601257"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="-2.1234569532362495"/>
@@ -184,14 +184,14 @@ stanu magazynowego#</dia:string>
     </dia:object>
     <dia:object type="Standard - Arc" version="0" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="7.12887,-20.3013"/>
+        <dia:point val="10.8289,-0.601257"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="7.07099,-27.1348;23.2894,-20.2434"/>
+        <dia:rectangle val="10.771,-7.43481;26.9895,-0.54338"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="7.12887,-20.3013"/>
-        <dia:point val="23.1539,-23.1084"/>
+        <dia:point val="10.8289,-0.601257"/>
+        <dia:point val="26.8539,-3.40836"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="-5.3267942350180544"/>
@@ -207,20 +207,20 @@ stanu magazynowego#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O1" connection="16"/>
-        <dia:connection handle="1" to="O13" connection="16"/>
+        <dia:connection handle="1" to="O15" connection="16"/>
       </dia:connections>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O4">
       <dia:attribute name="obj_pos">
-        <dia:point val="3.3,-11.2084"/>
+        <dia:point val="23.05,18.9416"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.3,-11.7384;8.605,-10.8134"/>
+        <dia:rectangle val="23.05,18.5416;23.05,19.7416"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Nazwa Towaru, ilość#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -229,7 +229,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="3.3,-11.2084"/>
+            <dia:point val="23.05,18.9416"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -245,15 +245,15 @@ stanu magazynowego#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O5">
       <dia:attribute name="obj_pos">
-        <dia:point val="12.915,-26.1584"/>
+        <dia:point val="23.65,18.9416"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.915,-26.6884;18.22,-25.7634"/>
+        <dia:rectangle val="23.63,18.5216;23.65,19.7816"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Nazwa Towaru, ilość#</dia:string>
+            <dia:string>##</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -262,7 +262,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="12.915,-26.1584"/>
+            <dia:point val="23.65,18.9416"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -276,15 +276,81 @@ stanu magazynowego#</dia:string>
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Ellipse" version="0" id="O6">
+    <dia:object type="Standard - Text" version="1" id="O6">
       <dia:attribute name="obj_pos">
-        <dia:point val="12.4539,-17.934"/>
+        <dia:point val="7,8.49164"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.4039,-17.984;23.1051,-14.6591"/>
+        <dia:rectangle val="7,7.94526;12.3214,8.91939"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Nazwa Towaru, ilość#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="7,8.49164"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="3"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Text" version="1" id="O7">
+      <dia:attribute name="obj_pos">
+        <dia:point val="16.615,-6.45836"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="16.615,-7.00474;21.9364,-6.03061"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Nazwa Towaru, ilość#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="16.615,-6.45836"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="3"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Flowchart - Ellipse" version="0" id="O8">
+      <dia:attribute name="obj_pos">
+        <dia:point val="16.1539,1.76603"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="16.1039,1.71603;26.8052,5.04094"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="12.4539,-17.934"/>
+        <dia:point val="16.1539,1.76603"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="10.601224733150433"/>
@@ -310,7 +376,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="17.7545,-16.1915"/>
+            <dia:point val="21.4546,3.50849"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -321,16 +387,16 @@ stanu magazynowego#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Arc" version="0" id="O7">
+    <dia:object type="Standard - Arc" version="0" id="O9">
       <dia:attribute name="obj_pos">
-        <dia:point val="14.4,-4.25"/>
+        <dia:point val="18.1,15.45"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.6222,-16.5036;18.2496,-4.18844"/>
+        <dia:rectangle val="17.3222,3.19644;21.9497,15.5116"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="14.4,-4.25"/>
-        <dia:point val="17.7545,-16.3215"/>
+        <dia:point val="18.1,15.45"/>
+        <dia:point val="21.4546,3.37849"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="-2.1027231753078928"/>
@@ -346,19 +412,19 @@ stanu magazynowego#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O0" connection="16"/>
-        <dia:connection handle="1" to="O6" connection="16"/>
+        <dia:connection handle="1" to="O8" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Arc" version="0" id="O8">
+    <dia:object type="Standard - Arc" version="0" id="O10">
       <dia:attribute name="obj_pos">
-        <dia:point val="17.7545,-16.3215"/>
+        <dia:point val="21.4546,3.37849"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="17.6843,-23.4588;23.5763,-16.2513"/>
+        <dia:rectangle val="21.3843,-3.75878;27.2764,3.44874"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="17.7545,-16.3215"/>
-        <dia:point val="23.1539,-23.1084"/>
+        <dia:point val="21.4546,3.37849"/>
+        <dia:point val="26.8539,-3.40836"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="0.58103917106104597"/>
@@ -373,16 +439,16 @@ stanu magazynowego#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O6" connection="16"/>
-        <dia:connection handle="1" to="O13" connection="16"/>
+        <dia:connection handle="0" to="O8" connection="16"/>
+        <dia:connection handle="1" to="O15" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O9">
+    <dia:object type="Standard - Text" version="1" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="13.9539,-9.85836"/>
+        <dia:point val="17.6539,9.84164"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="13.9539,-10.3884;19.2389,-9.46336"/>
+        <dia:rectangle val="17.6539,9.29526;22.9553,10.2694"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -396,7 +462,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="13.9539,-9.85836"/>
+            <dia:point val="17.6539,9.84164"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -410,12 +476,12 @@ stanu magazynowego#</dia:string>
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O10">
+    <dia:object type="Standard - Text" version="1" id="O12">
       <dia:attribute name="obj_pos">
-        <dia:point val="16.3189,-20.2084"/>
+        <dia:point val="20.0189,-0.508361"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="16.3189,-20.7384;21.6039,-19.8134"/>
+        <dia:rectangle val="20.0189,-1.05474;25.3203,-0.0806107"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -429,7 +495,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="16.3189,-20.2084"/>
+            <dia:point val="20.0189,-0.508361"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -443,15 +509,15 @@ stanu magazynowego#</dia:string>
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Ellipse" version="0" id="O11">
+    <dia:object type="Flowchart - Ellipse" version="0" id="O13">
       <dia:attribute name="obj_pos">
-        <dia:point val="27.5201,-16.6503"/>
+        <dia:point val="31.2201,3.0497"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="27.4701,-16.7003;38.4151,-12.7352"/>
+        <dia:rectangle val="31.1701,2.9997;42.1151,6.96479"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="27.5201,-16.6503"/>
+        <dia:point val="31.2201,3.0497"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="10.845022969600373"/>
@@ -477,7 +543,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="32.9426,-14.5878"/>
+            <dia:point val="36.6426,5.11224"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -488,16 +554,16 @@ stanu magazynowego#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Arc" version="0" id="O12">
+    <dia:object type="Standard - Arc" version="0" id="O14">
       <dia:attribute name="obj_pos">
-        <dia:point val="14.4,-4.25"/>
+        <dia:point val="18.1,15.45"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="14.3319,-15.1777;33.232,-3.96474"/>
+        <dia:rectangle val="18.0319,4.52225;36.9319,15.7353"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="14.4,-4.25"/>
-        <dia:point val="32.9426,-14.7178"/>
+        <dia:point val="18.1,15.45"/>
+        <dia:point val="36.6426,4.98224"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="3.771591870477272"/>
@@ -513,18 +579,18 @@ stanu magazynowego#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O0" connection="16"/>
-        <dia:connection handle="1" to="O11" connection="16"/>
+        <dia:connection handle="1" to="O13" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Flowchart - Data Source" version="0" id="O13">
+    <dia:object type="Flowchart - Data Source" version="0" id="O15">
       <dia:attribute name="obj_pos">
-        <dia:point val="19.162,-24.1084"/>
+        <dia:point val="22.862,-4.40836"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="19.112,-24.1584;27.1458,-22.0584"/>
+        <dia:rectangle val="22.812,-4.45836;30.8458,-2.35836"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="19.162,-24.1084"/>
+        <dia:point val="22.862,-4.40836"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="7.9837966117753112"/>
@@ -560,7 +626,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="23.3535,-22.9284"/>
+            <dia:point val="27.0535,-3.22836"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -577,16 +643,16 @@ stanu magazynowego#</dia:string>
         <dia:boolean val="false"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Arc" version="0" id="O14">
+    <dia:object type="Standard - Arc" version="0" id="O16">
       <dia:attribute name="obj_pos">
-        <dia:point val="32.9426,-14.7178"/>
+        <dia:point val="36.6426,4.98224"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.7905,-25.8362;34.9135,-14.6473"/>
+        <dia:rectangle val="26.4906,-6.13615;38.6135,5.05275"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="32.9426,-14.7178"/>
-        <dia:point val="23.1539,-23.1084"/>
+        <dia:point val="36.6426,4.98224"/>
+        <dia:point val="26.8539,-3.40836"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="7.0014452633370592"/>
@@ -601,16 +667,16 @@ stanu magazynowego#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O11" connection="16"/>
-        <dia:connection handle="1" to="O13" connection="16"/>
+        <dia:connection handle="0" to="O13" connection="16"/>
+        <dia:connection handle="1" to="O15" connection="16"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O15">
+    <dia:object type="Standard - Text" version="1" id="O17">
       <dia:attribute name="obj_pos">
-        <dia:point val="21.5039,-7.6584"/>
+        <dia:point val="25.2039,12.0416"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="21.5039,-8.1884;27.7589,-7.2634"/>
+        <dia:rectangle val="25.2039,11.4953;31.4753,12.4694"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -624,7 +690,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="21.5039,-7.6584"/>
+            <dia:point val="25.2039,12.0416"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -638,12 +704,12 @@ stanu magazynowego#</dia:string>
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O16">
+    <dia:object type="Standard - Text" version="1" id="O18">
       <dia:attribute name="obj_pos">
-        <dia:point val="28.4689,-26.1084"/>
+        <dia:point val="32.1689,-6.40836"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.4689,-26.6384;34.7239,-25.7134"/>
+        <dia:rectangle val="32.1689,-6.95474;38.4403,-5.98061"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -657,7 +723,7 @@ stanu magazynowego#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="28.4689,-26.1084"/>
+            <dia:point val="32.1689,-6.40836"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
