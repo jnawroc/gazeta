@@ -140,19 +140,27 @@ Ponadto, osoba zarządzająca ma wgląd do raportów wygenerowanych przez wszyst
 \begin{description}
 \item[Proces P5.1 - Weryfikacja użytkownika] ~\\*
 \end{description}
+Każdy z pracowników (w szczególności kierownik) przed rozpoczęciem pracy z systemem musi się do niego zalogować. Procedura ta przebiega standardowo, użytkownik wpisuje login oraz hasło. Z bazy danych zostaje pobrana suma kontrolna hasła, przy pomocy której system weryfikuje poprawność logowania użytkownika. W zależności od wyniku weryfikacji, użytkownik zostaje zalogowany do systemu, bądź pojawia się komunikat o niepoprawnym logowaniu. Każde logowanie zostaje zapisane w bazie danych, i rozpoczyna zmianę pracownika. Pracownik, który obsługuje kasę, odpowiada za jej stan przez czas, przez który jest na niej zalogowany.
 \subsubsection{Proces P6 - Nadawanie i przeglądanie uprawnień i danych użytkowników systemu}
 \begin{description}
 \item[Proces P6.1 - Pobieranie odpowiednich danych z bazy i przetworzenie ich do prezentacji] ~\\*
+Kierownik saloniku oraz osoba zarządzająca siecią ma możliwość przeglądania danych wszystkich pracowników, jacy jemu podlegają. W szczególności osoba zarządzająca może przeglądać dane wszystkich pracowników jak również pracowników z jednego bądź kilku wybranych saloników.
 \item[Proces P6.2 - Nadanie określonych uprawnień wybranym pracownikom] ~\\*
+Osoba zarządzająca siecią powinna nadać każdemu z pracowników uprawnienia oraz ma możliwość ich zmiany. Każdy z pracowników musi mieć przypisany salonik w którym pracuje oraz funkcję jaką pełni. Dane te muszą zostać uzupełnione przed pierwszym zalogowaniem, mogą być także zmieniane (pracownik może awansować na kierownika salonu).
 \end{description}
 \subsubsection{Proces P7 - Dodanie/usunięcie użytkownika systemu}
 \begin{description}
 \item[Proces P7.1 - Dodanie użytkownika do systemu] ~\\*
+Osoba zarządzająca siecią ma możliwość dodawania nowych użytkowników do systemu, zarówno pracowników, jak i kierowników salonów. W przypadku, kiedy zatrudniono nowego pracownika, należy wprowadzić jego dane oraz salonik w którym pracuje. Wprowadzone dane są następnie zapisywane w bazie danych.
 \item[Proces P7.2 - Usunięcie użytkownika z systemu] ~\\*
+Osoba zarządzająca siecią ma możliwość usuwania użytkowników z systemu, zarówno pracowników, jak i kierowników salonów. W przypadku, kiedy pracownik został zwolniony, należy wyszukać jego dane w systemie a następnie je usunąć. W następstwie tej akcji baza danych zostanie odpowiednio zaktualizowana.
 \end{description}
 \subsubsection{Proces P8 - Wprowadzenie nowego towaru, usunięcie starego lub zmiana danych towarów}
 \begin{description}
 \item[Proces P8.1 - Dodanie nowego towaru do bazy] ~\\*
+Osoba zarządzająca siecią ma możliwość dodania nowego towaru do systemu. W przypadku, gdy w jednym z saloników (lub paru jest wprowadzony do sprzedaży nowy towar, należy wprowadzić jego dane, takie jak nazwa, cena, kod PLU, wartość podatku VAT oraz typ. Wprowadzone dane są następnie zapisywane w bazie danych.
 \item[Proces P8.2 - Usunięcie towaru z bazy bazy] ~\\*
-\item[Proces P8.3 - Zmiana właściwości towaru w bazie] ~\\*
+Osoba zarządzająca siecią ma możliwość usuwania istniejących towarów z systemu. W przypadku, kiedy dany towar nie będzie już więcej sprzedawany w żadnym z saloników, należy wyszukać dane tego towaru, a następnie wysłać do systemu żądanie usunięcia go. W następstwie tej akcji baza danych zostanie odpowiednio zaktualizowana.
+\item[Proces P8.3 - Zmiana właściwości towaru w bazie] ~\\*	
+Osoba zarządzająca siecią ma możliwość zmiany danych istniejących towarów w systemie. W przypadku, kiedy na stałe zmienią się jakieś dane towaru, w szczególności towar nie będzie już identyfikowany pewnym kodem PLU, lub zostanie zmieniona jego cena, należy wyszukać dany towar w systemie, zmienić odpowiednio jego dane, oraz wysłać do systemu żądanie zmiany. Zmiany takie mogą wynikać z lokalnych zmian wprowadzonych w poszczególnych salonikach. W następstwie tej akcji baza danych zostanie odpowiednio zaktualizowana.
 \end{description}
