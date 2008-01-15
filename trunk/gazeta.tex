@@ -4,13 +4,12 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-%\author{}
 \title{Gazeta}
 \pagestyle{fancy}
 \fancyhead{}
 \lfoot{\scriptsize Plik: gazeta.pdf\\Copyright \copyright\ Akademia Górniczo-Hutnicza}
 \cfoot{\scriptsize Wersja: \input{wersja.tex}\\\normalsize \thepage}
-\rfoot{\scriptsize Stron: \pageref{LastPage} Długość: \input{dlugosc.tex}kB\\Prowadzenie zajęć: dr Tadeusz Dyduch}
+\rfoot{\scriptsize Stron: \pageref{LastPage} Długość: \input{dlugosc.tex}kB\\Prowadzenie zajęć: \input{prowadzacy.tex}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.5pt}
 \linespread{1.5}
@@ -18,14 +17,41 @@
 
 \begin{document}
 %strona tytułowa
+\linespread{1}
 \begin{center}
 \mbox{\Huge AKADEMIA GÓRNICZO\dywiz HUTNICZA}\\
 \mbox{\Large Wydział Elektrotechniki, Automatyki, Informatyki i~Elektroniki}\\
 \includegraphics[scale=0.5]{gfx/agh.jpg}\\
 \mbox{\Large KATEDRA INFORMATYKI}
 \end{center}
-%TODO tabelka na dole pierwszej strony
-%TODO marginesy pierwszej strony (żeby nagłówek się mieścił i~był równo)
+\begin{table}[b]
+\centering{\LARGE Wersja \input{wersja.tex}}
+\begin{tabular}{lc}
+\begin{tabular}{l}
+\emph{Kierunek, rok studiów:}\\
+\ \ \ \bfseries{\large Informatyka, III rok}\\
+\emph{Przedmiot:}\\
+\ \ \ \bfseries{\large Projektowanie systemów informatycznych}\\
+\emph{Prowadzący zajęcia:}\\
+\ \ \ \bfseries{\large \input{prowadzacy.tex}}
+\end{tabular}
+&
+\begin{tabular}{cc}
+\multicolumn{2}{c}{\emph{Grupa (projekt):}}\\
+\multicolumn{2}{c}{\bfseries{\Huge Gazeta?}}\\
+\multicolumn{2}{c}{\ }\\
+\emph{Rok akad:} & \bfseries{\large 2007/2008}
+\end{tabular}
+\end{tabular}
+\flushleft{\emph{\bfseries{\Large Zespół autorski:}}}
+\large
+\begin{tabular}{ll}
+\ \ \ \ \ \bfseries{Jakub Jaroszewski} & jjarosz@student.agh.edu.pl\\
+\ \ \ \ \ \bfseries{Jakub Nawrocki} & jnawroc@student.agh.edu.pl\\
+\ \ \ \ \ \bfseries{Witold Sowa} & wsowa@student.agh.edu.pl\\
+\ \ \ \ \ \bfseries{Anna Szczerbińska} & szczerbi@student.agh.edu.pl
+\end{tabular}
+\end{table}
 \thispagestyle{empty}
 \clearpage
 
@@ -50,6 +76,6 @@ Niniejsze opracowanie powstało w~trakcie i~jako rezultat zajęć dydaktycznych 
 %spis ilustracji i~tabel
 \clearpage
 \listoffigures
-\listoftables
+%\listoftables
 \end{document}
 
