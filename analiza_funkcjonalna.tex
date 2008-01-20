@@ -66,6 +66,12 @@
 \caption{DFD - poziom 2.8 - Wprowadzenie nowego towaru, usunięcie starego lub zmiana danych towarów}
 \end{figure}
 \clearpage
+\subsubsection{Poziom 2.9 - Wyszukiwanie informacji o towarze}
+\begin{figure}[h]
+\includegraphics[width=1\textwidth]{gfx/dfd-2-9.png}
+\caption{DFD - poziom 2.9 - Wyszukiwanie informacji o towarze}
+\end{figure}
+\clearpage
 \subsection{Opisy procesów}
 \subsubsection{Proces P1 - Sprzedaż towaru}
 \begin{description}
@@ -140,7 +146,7 @@ Ponadto, osoba zarządzająca ma wgląd do raportów wygenerowanych przez wszyst
 \begin{description}
 \item[Proces P5.1 - Weryfikacja użytkownika] ~\\*
 \end{description}
-Każdy z pracowników (wyróżniamy 3 poziomy uprawnień: pracownik, kierownik saloniku oraz kierownik całej sieci saloników.k) przed rozpoczęciem pracy z systemem musi się do niego zalogować. Procedura ta przebiega standardowo, użytkownik wpisuje login oraz hasło. Z bazy danych zostaje pobrana suma kontrolna hasła, przy pomocy której system weryfikuje poprawność logowania użytkownika. W zależności od wyniku weryfikacji, użytkownik zostaje zalogowany do systemu, bądź pojawia się komunikat o niepoprawnym logowaniu. Każde logowanie zostaje zapisane w bazie danych, i rozpoczyna zmianę pracownika. Pracownik, który obsługuje kasę, odpowiada za jej stan przez czas, przez który jest na niej zalogowany. 
+Każdy z pracowników (wyróżniamy 3 poziomy uprawnień: pracownik, kierownik saloniku oraz kierownik całej sieci saloników.k) przed rozpoczęciem pracy z systemem musi się do niego zalogować. Procedura ta przebiega standardowo, użytkownik wpisuje login oraz hasło. Z bazy danych zostaje pobrana suma kontrolna hasła, przy pomocy której system weryfikuje poprawność logowania użytkownika. W zależności od wyniku weryfikacji, użytkownik zostaje zalogowany do systemu, bądź pojawia się komunikat o niepoprawnym logowaniu. Każde logowanie zostaje zapisane w bazie danych, i rozpoczyna zmianę pracownika. Pracownik, który obsługuje kasę, odpowiada za jej stan przez czas, przez który jest na niej zalogowany.
 \subsubsection{Proces P6 - Nadawanie i przeglądanie uprawnień i danych użytkowników systemu}
 \begin{description}
 \item[Proces P6.1 - Pobieranie odpowiednich danych z bazy i przetworzenie ich do prezentacji] ~\\*
@@ -161,6 +167,11 @@ Osoba zarządzająca siecią ma możliwość usuwania użytkowników z systemu, 
 Osoba zarządzająca siecią ma możliwość dodania nowego towaru do systemu. W przypadku, gdy w jednym z saloników (lub paru jest wprowadzony do sprzedaży nowy towar, należy wprowadzić jego dane, takie jak nazwa, cena, kod PLU, wartość podatku VAT oraz typ. Wprowadzone dane są następnie zapisywane w bazie danych.
 \item[Proces P8.2 - Usunięcie towaru z bazy bazy] ~\\*
 Osoba zarządzająca siecią ma możliwość usuwania istniejących towarów z systemu. W przypadku, kiedy dany towar nie będzie już więcej sprzedawany w żadnym z saloników, należy wyszukać dane tego towaru, a następnie wysłać do systemu żądanie usunięcia go. W następstwie tej akcji baza danych zostanie odpowiednio zaktualizowana.
-\item[Proces P8.3 - Zmiana właściwości towaru w bazie] ~\\*	
+\item[Proces P8.3 - Zmiana właściwości towaru w bazie] ~\\*
 Osoba zarządzająca siecią ma możliwość zmiany danych istniejących towarów w systemie. W przypadku, kiedy na stałe zmienią się jakieś dane towaru, w szczególności towar nie będzie już identyfikowany pewnym kodem PLU, lub zostanie zmieniona jego cena, należy wyszukać dany towar w systemie, zmienić odpowiednio jego dane, oraz wysłać do systemu żądanie zmiany. Zmiany takie mogą wynikać z lokalnych zmian wprowadzonych w poszczególnych salonikach. W następstwie tej akcji baza danych zostanie odpowiednio zaktualizowana.
+\end{description}
+\subsubsection{Proces P8 - Wprowadzenie nowego towaru, usunięcie starego lub zmiana danych towarów}
+\begin{description}
+\item[Proces P9.1 - Wyszukiwanie informacji o towarze] ~\\*
+Pracownik ma możliwość wyszukiwania danego towaru w bazie danych. Wyszukiwanie może odbywać się na podstawie fragmentu nazwy towaru, bądź też na podstawie kodu PLU (wprowadzonego np. z czytnika kodów kreskowych). Pracownik może też zdecydować czy chce w wyszukiwaniu uwzględnić tylko swój salonik czy poszukać towaru również w innych salonikach. Funkcja ta wykorzystywana może być do sprawdzenia ilości towaru na składzie saloniku, bądź też do sprawdzenia dostępności danego towaru w innych salonikach, jeżeli klientowi bardzo zależy na nabyciu towaru, który w danym saloniku jest niedostępny.
 \end{description}
