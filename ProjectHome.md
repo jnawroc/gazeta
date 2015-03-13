@@ -1,0 +1,1 @@
+Studencki projekt komputerowego wspomagania zarządzaniem małą siecią salonów prasowych
